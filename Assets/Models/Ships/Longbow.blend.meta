@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 79cff43ed813e7340b5133caf916808d
+timeCreated: 1511908225
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: centralthruster
+    100002: cockpit
+    100004: front
+    100006: guns
+    100008: //RootNode
+    100010: rearthruster
+    100012: sidethruster
+    100014: wings
+    400000: centralthruster
+    400002: cockpit
+    400004: front
+    400006: guns
+    400008: //RootNode
+    400010: rearthruster
+    400012: sidethruster
+    400014: wings
+    2300000: centralthruster
+    2300002: cockpit
+    2300004: front
+    2300006: guns
+    2300008: rearthruster
+    2300010: sidethruster
+    2300012: wings
+    3300000: centralthruster
+    3300002: cockpit
+    3300004: front
+    3300006: guns
+    3300008: rearthruster
+    3300010: sidethruster
+    3300012: wings
+    4300000: sidethruster
+    4300002: centralthruster
+    4300004: wings
+    4300006: guns
+    4300008: front
+    4300010: rearthruster
+    4300012: cockpit
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drak_hull
+    second: {fileID: 2100000, guid: c2cd5ee1d3f88d84d984c5554585727b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: b6aa6a46105d34649a6e2e0882a605e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hull
+    second: {fileID: 2100000, guid: 691df1b5e9c2d4148a6e93d4cb06fc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hull_dark
+    second: {fileID: 2100000, guid: 03e1291667728d74f82827e6bf246061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hull_red
+    second: {fileID: 2100000, guid: 6a8e446292a8d7248a68d272677daeb2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
