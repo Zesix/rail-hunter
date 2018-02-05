@@ -5,7 +5,16 @@ for the following:
  * Files in the Packages/ folder are bound by the Unity Asset Store EULA and are free assets users can use within those terms.
  * Audio track "Gold Coast" is by Machinima Sound and is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
  * Audio track "Aduro" is by Machinima Sound and is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
-
+ 
+### Features ###
+ * Title, options, game over screens.
+ * Music player.
+ * Timeline-driven rails gameplay.
+ * Local space player ship movement with aileron roll mechanic.
+ * Enemies fire homing missiles randomly within min/max firing range.
+ * Enemies flash red emission on hit.
+ * Top score and options screen settings saved using PlayerPrefs.
+ 
 ### Project Architecture ###
 
 This project is built using the Impulse Framework: https://github.com/Zesix/Impulse

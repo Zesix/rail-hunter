@@ -99,18 +99,12 @@ public class EnemyShipPresenter : MonoBehaviour
         explosionPrefab.transform.position = transform.position;
 
         yield return null;
+        SetEmissionForChildObjects(Color.black);
         gameObject.SetActive(false);
-        
-        // TODO Find another way - the ship is set inactive by timeline and the code doesn't execute in time.
-        // TODO Unfortunately, Unity does not provide a way to know when the timeline has completed an iteration :/
-        // TODO Alternatively, make the timeline longer and add more enemy waves so it's less repetitive.
-        yield return _emissionOnHitDelay;
-        ResetShip();
     }
 
-    private void ResetShip()
+    public void ResetShip()
     {
         _model.ClearHits();
-        gameObject.SetActive(true);
     }
 }

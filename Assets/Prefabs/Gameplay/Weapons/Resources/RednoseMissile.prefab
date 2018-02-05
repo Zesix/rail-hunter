@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 100
   _speed: 60
-  _homingSensitivity: 0.7
+  _homingSensitivity: 0.8
   _autoDespawnDelay: 4
   _explosionEffectPrefab: {fileID: 4649724169513380, guid: 2ccd8159094e4eb44935bae8b9618b48,
     type: 2}

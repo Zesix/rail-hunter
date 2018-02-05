@@ -1,11 +1,15 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using Zenject;
 
 public class EnemyWavesManager : MonoBehaviour 
 {
+    // Configurable
+    [SerializeField] private GameObject[] _enemyWaves;
+    
     // Internal
     private string _menuScreens;
-    [SerializeField] private GameObject[] _enemyWaves;
+    private List<EnemyShipPresenter> _enemyShips;
     
     // Dependencies
     private GameStateChangedSignal _gameStateChangedSignal;
@@ -19,6 +23,14 @@ public class EnemyWavesManager : MonoBehaviour
     private void Awake()
     {
         _gameStateChangedSignal += OnGameStateChanged;
+        _enemyShips = new List<EnemyShipPresenter>();
+        foreach (var enemyWave in _enemyWaves)
+        {
+            foreach (var enemyShip in enemyWave.GetComponentsInChildren<EnemyShipPresenter>())
+            {
+                _enemyShips.Add(enemyShip);
+            }
+        }
         DisableWaves();
     }
     
@@ -41,7 +53,7 @@ public class EnemyWavesManager : MonoBehaviour
 
     private void DisableWaves()
     {
-        foreach (GameObject enemyWave in _enemyWaves)
+        foreach (var enemyWave in _enemyWaves)
         {
             enemyWave.SetActive(false);
         }
@@ -49,9 +61,15 @@ public class EnemyWavesManager : MonoBehaviour
 
     private void EnableWaves()
     {
-        foreach (GameObject enemyWave in _enemyWaves)
+        foreach (var enemyWave in _enemyWaves)
         {
             enemyWave.SetActive(true);
+        }
+
+        foreach (var enemyShip in _enemyShips)
+        {
+            enemyShip.gameObject.SetActive(true);
+            enemyShip.ResetShip();
         }
     }
 }
