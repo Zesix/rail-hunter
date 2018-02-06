@@ -1,4 +1,4 @@
-![Rail Hunter gameplay screenshot](https://i.imgur.com/tIMLMZp.jpg)
+![Rail Hunter gameplay screenshot](https://i.imgur.com/SqjsoDw.jpg)
 
 ## Rail Hunter ##
 
