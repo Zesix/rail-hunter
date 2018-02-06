@@ -1,10 +1,11 @@
+![Rail Hunter gameplay screenshot](https://i.imgur.com/GMvtQoS.jpg)
+
 ## Rail Hunter ##
 
-The files in this project are licensed under CC0 (https://creativecommons.org/publicdomain/zero/1.0/) EXCEPT
-for the following:
+This project is released to the public domain under [The Unlicense](https://github.com/Zesix/rail-hunter/blob/master/LICENSE) EXCEPT for the following files:
  * Files in the Packages/ folder are bound by the Unity Asset Store EULA and are free assets users can use within those terms.
- * Audio track "Gold Coast" is by Machinima Sound and is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
- * Audio track "Aduro" is by Machinima Sound and is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+ * Audio track "Gold Coast" is by Machinima Sound and is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+ * Audio track "Aduro" is by Machinima Sound and is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
  
 ### Features ###
  * Title, options, game over screens.
@@ -17,7 +18,7 @@ for the following:
  
 ### Project Architecture ###
 
-This project is built using the Impulse Framework: https://github.com/Zesix/Impulse
+This project is built using the [Impulse Framework](https://github.com/Zesix/Impulse).
 
  - Zenject is used for DI, binding, memory pool, and event system (signals). To see how the scene is wired, look at the GameInstaller component attached to SceneContext.
  - Input handling is done by InputListener. It listens to input from the CrossPlatformInput manager and fires events accordingly.
