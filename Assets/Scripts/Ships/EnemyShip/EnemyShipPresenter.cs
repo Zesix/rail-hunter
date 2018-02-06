@@ -24,7 +24,7 @@ public class EnemyShipPresenter : MonoBehaviour
     
     [Inject]
     public void Construct(EnemyShipModel model, 
-        ScoreSignal scoreSignal, 
+        ScoreSignal scoreSignal,
         ShipExplosion.Pool shipExplosionPool,
         MissileWeapon.Pool missileWeaponPool,
         PlayableShip playerShip)
