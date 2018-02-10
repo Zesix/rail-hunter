@@ -4573,7 +4573,7 @@ MonoBehaviour:
   ControlPitchFactor: -20
   PositionYawFactor: 6.5
   ControlRollFactor: -24
-  RotateTowardCursorTime: 0.2
+  RotateTowardCursorTime: 0.1
   AileronRollTime: 0.8
   ExplosionPrefab: {fileID: 400014, guid: f56417dc898ef304ab39a53d916547fd, type: 2}
 --- !u!54 &683536803
