@@ -5034,7 +5034,7 @@ MonoBehaviour:
   ControlPitchFactor: -20
   PositionYawFactor: 6.5
   ControlRollFactor: -24
-  RotateTowardCursorTime: 0.01
+  RotateTowardCursorTime: 0.1
   AileronRollTime: 0.8
   ExplosionPrefab: {fileID: 400014, guid: f56417dc898ef304ab39a53d916547fd, type: 2}
 --- !u!54 &683536803
@@ -9440,46 +9440,6 @@ Prefab:
       propertyPath: m_Name
       value: BulletsLeft
       objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: randomSeed
-      value: 1052785007
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.collidesWith.m_Bits
-      value: 1041
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.radiusScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.quality
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.multiplyColliderForceByCollisionAngle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: ShapeModule.radius.value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: ShapeModule.arc.mode
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc6bd3e7fdbdb3948bb4d73063c101be, type: 2}
   m_IsPrefabParent: 0
@@ -12388,41 +12348,6 @@ Prefab:
     - target: {fileID: 1341249279979586, guid: bc6bd3e7fdbdb3948bb4d73063c101be, type: 2}
       propertyPath: m_Name
       value: BulletsRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: randomSeed
-      value: -1148378401
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.collidesWith.m_Bits
-      value: 1041
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.quality
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: CollisionModule.multiplyColliderForceByCollisionAngle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: ShapeModule.radius.value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
-        type: 2}
-      propertyPath: ShapeModule.arc.mode
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc6bd3e7fdbdb3948bb4d73063c101be, type: 2}
