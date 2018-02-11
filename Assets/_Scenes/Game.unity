@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 97014519}
   - component: {fileID: 97014518}
   m_Layer: 2
-  m_Name: Wave 2b
+  m_Name: Wave 2c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ Transform:
   - {fileID: 819713644}
   - {fileID: 1609650899}
   m_Father: {fileID: 1429018830}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &97014518
 Animator:
@@ -2653,7 +2653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335758532}
   m_Layer: 2
-  m_Name: Waves (1-9)
+  m_Name: Waves (1-8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2677,7 +2677,6 @@ Transform:
   - {fileID: 639630269}
   - {fileID: 258356344}
   - {fileID: 791762615}
-  - {fileID: 1407212091}
   m_Father: {fileID: 1891657156}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4802,7 +4801,7 @@ GameObject:
   - component: {fileID: 662788235}
   - component: {fileID: 662788234}
   m_Layer: 2
-  m_Name: Wave 2a
+  m_Name: Wave 2b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4825,7 +4824,7 @@ Transform:
   - {fileID: 1971911062}
   - {fileID: 1208858888}
   m_Father: {fileID: 1429018830}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &662788234
 Animator:
@@ -9796,7 +9795,7 @@ GameObject:
   - component: {fileID: 1407212093}
   - component: {fileID: 1407212092}
   m_Layer: 2
-  m_Name: Wave 1i
+  m_Name: Wave 2a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9819,8 +9818,8 @@ Transform:
   - {fileID: 271503921}
   - {fileID: 1348404175}
   - {fileID: 1296505127}
-  m_Father: {fileID: 335758532}
-  m_RootOrder: 8
+  m_Father: {fileID: 1429018830}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -1.207, z: 0}
 --- !u!95 &1407212092
 Animator:
@@ -10114,6 +10113,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1407212091}
   - {fileID: 662788233}
   - {fileID: 97014517}
   m_Father: {fileID: 1891657156}
