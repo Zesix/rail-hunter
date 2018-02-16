@@ -59,9 +59,8 @@ public class PlayerController : IInitializable, ITickable, IDisposable
         else
         {
             _shipView.TranslateShip(inputData.XThrow, inputData.YThrow);
+            _shipView.RotateShip(inputData.XThrow, inputData.YThrow);
+            _shipView.LookAtPositionFromRay(inputData.MousePositionRay);
         }
-
-        _shipView.RotateShip(inputData.XThrow, inputData.YThrow);
-        _shipView.LookAtPositionFromRay(inputData.MousePositionRay);
     }
 }

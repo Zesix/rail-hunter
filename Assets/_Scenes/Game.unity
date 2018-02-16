@@ -10830,7 +10830,7 @@ MonoBehaviour:
   ControlPitchFactor: -20
   PositionYawFactor: 6.5
   ControlRollFactor: -24
-  RotateTowardCursorTime: 0.05
+  RotateTowardCursorTime: 0
   AileronRollTime: 0.8
   ExplosionPrefab: {fileID: 400014, guid: f56417dc898ef304ab39a53d916547fd, type: 2}
 --- !u!54 &683536803
@@ -19844,6 +19844,16 @@ Prefab:
       propertyPath: m_Name
       value: BulletsLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
+        type: 2}
+      propertyPath: randomSeed
+      value: -422442267
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc6bd3e7fdbdb3948bb4d73063c101be, type: 2}
   m_IsPrefabParent: 0
@@ -25774,6 +25784,16 @@ Prefab:
       propertyPath: m_Name
       value: BulletsRight
       objectReference: {fileID: 0}
+    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198106638268079990, guid: bc6bd3e7fdbdb3948bb4d73063c101be,
+        type: 2}
+      propertyPath: randomSeed
+      value: -422442267
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc6bd3e7fdbdb3948bb4d73063c101be, type: 2}
   m_IsPrefabParent: 0
@@ -29300,6 +29320,8 @@ PlayableDirector:
   - key: {fileID: 114271229953083164, guid: 195c26d944f021c4e86f3924c5f1e5c6, type: 2}
     value: {fileID: 0}
   - key: {fileID: 114103552479325458, guid: 195c26d944f021c4e86f3924c5f1e5c6, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114842347433650002, guid: 195c26d944f021c4e86f3924c5f1e5c6, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:

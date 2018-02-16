@@ -13,7 +13,6 @@ public class MissileWeapon : MonoBehaviour, IWeapon
     [SerializeField] private float _speed = 60f;
     [Range(0,1)] [SerializeField] private float _homingSensitivity = 0.8f;
     [SerializeField] private float _autoDespawnDelay = 4f;
-    [SerializeField] private Transform _explosionEffectPrefab;
     
     // Internal
     private Transform _target;

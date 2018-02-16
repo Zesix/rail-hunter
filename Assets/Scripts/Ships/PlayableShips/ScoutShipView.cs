@@ -77,7 +77,7 @@ public class ScoutShipView : PlayableShip
         {
             return;
         }
-        var targetDirection = mousePositionRay.GetPoint(Camera.main.farClipPlane);
+        var targetDirection = mousePositionRay.GetPoint(Camera.main.farClipPlane * 2f);
         transform.DOLookAt(targetDirection, RotateTowardCursorTime);
     }
 
