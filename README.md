@@ -25,4 +25,4 @@ This project is built using the [Impulse Framework](https://github.com/Zesix/Imp
  - Player is set up using a Model-View-Controller pattern (MVC), where the model and controller are in Scripts/Player and the views are in Ships/PlayableShips. PlayableShip is the abstract class for player-controllable ship views.
 Note that there is only one playable ship, but the structure allows for adding more views easily - just extend PlayableShip and put the new script on a new ship object.
  - Weapons implement IWeapon and must have an impact damage property. See MissileWeapon, ScoutShipView, and PlayerController for how the impact damage amount is passed via event.
- - Rails gameplay is driven by Timeline. The player path runs at 0.8 speed since I originally made it too fast. Each 'wave' of enemy ships also runs at a different speed for a more tuning gameplay experience.
+ - Rails gameplay is driven by Timeline. The player path runs at 0.8 speed since I originally made it too fast. Each 'wave' of enemy ships is tuned to run at a different speed for a more smooth gameplay experience.
