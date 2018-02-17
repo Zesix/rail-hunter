@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using Zenject;
 
-public class GameController : IInitializable, ITickable, IDisposable
+public class GameController : IInitializable, IDisposable
 {
     // Dependencies
     private GameStateChangedSignal _gameStateChangedSignal;
@@ -54,12 +54,10 @@ public class GameController : IInitializable, ITickable, IDisposable
         Score += amount;
     }
 
-    public void Tick()
-    {
-    }
-
     public void Dispose()
     {
+        _gameStateChangedSignal -= OnGameStateChanged;
+        _scoreSignal -= OnScoreChanged;
     }
 
 }

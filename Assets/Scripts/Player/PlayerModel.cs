@@ -3,7 +3,7 @@ using Zenject;
 
 public class PlayerModel : IInitializable
 {
-    private PlayerData _playerData;
+    private readonly PlayerData _playerData;
     
     public int Health { get; private set; }
 
