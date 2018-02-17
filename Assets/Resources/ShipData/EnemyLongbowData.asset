@@ -14,5 +14,5 @@ MonoBehaviour:
   _minimumHitsBeforeDeath: 1
   _maximumHitsBeforeDeath: 6
   _scoreMultiplier: 10
-  _fireRateMin: 2
-  _fireRateMax: 2.5
+  _fireRateMin: 1.8
+  _fireRateMax: 2.2

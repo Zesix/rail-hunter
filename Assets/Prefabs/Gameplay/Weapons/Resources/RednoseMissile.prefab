@@ -185,8 +185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 100
   _speed: 65
-  _homingSensitivity: 0.8
-  _autoDespawnDelay: 4
+  _homingSensitivity: 0.9
+  _autoDespawnDelay: 3
 --- !u!198 &198812654861472694
 ParticleSystem:
   m_ObjectHideFlags: 1
