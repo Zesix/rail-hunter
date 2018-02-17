@@ -186,7 +186,7 @@ MonoBehaviour:
   _damage: 100
   _speed: 65
   _homingSensitivity: 0.9
-  _autoDespawnDelay: 3
+  _autoDespawnDelay: 2
 --- !u!198 &198812654861472694
 ParticleSystem:
   m_ObjectHideFlags: 1
